@@ -1,0 +1,35 @@
+.cell{
+    width: 100px;
+    height: 100px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+}
+#gameDisplay{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}
+
+#cellDisplay{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: 0 auto;
+    justify-content: center;
+}
+#rematchBtn{
+    margin-top: 10px;
+    font-size: medium;
+    font-family: 'Pacifico', cursive;
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
+    border: outset solid;
+    cursor: pointer;
+    background-color: silver;
+}
+h1{
+    text-decoration: underline;
+}
